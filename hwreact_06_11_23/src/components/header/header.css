@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: teal;
+    display: flex;
+    justify-content: space-around;
+}
+ h2 {
+    font-size: 60px;
+ }
+.header_ul  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header_ul ul {
+    display: flex;
+}
+
+li {
+    justify-content: space-between;
+    margin-right: 100px;
+    align-items: center;
+    list-style: none;
+    font-size: 30px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+    
+a:hover {
+    color: yellow;
+}
